@@ -1,0 +1,26 @@
+[
+  {
+    "value": "bathroom",
+    "synonyms": [
+      "bathroom"
+    ]
+  },
+  {
+    "value": "kitchen",
+    "synonyms": [
+      "kitchen"
+    ]
+  },
+  {
+    "value": "room",
+    "synonyms": [
+      "room"
+    ]
+  },
+  {
+    "value": "living room",
+    "synonyms": [
+      "living room"
+    ]
+  }
+]

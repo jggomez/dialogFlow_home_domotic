@@ -1,0 +1,20 @@
+[
+  {
+    "value": "turn on",
+    "synonyms": [
+      "turn on"
+    ]
+  },
+  {
+    "value": "turn off",
+    "synonyms": [
+      "turn off"
+    ]
+  },
+  {
+    "value": "action",
+    "synonyms": [
+      "action"
+    ]
+  }
+]

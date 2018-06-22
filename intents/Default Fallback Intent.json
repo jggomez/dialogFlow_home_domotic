@@ -1,0 +1,32 @@
+{
+  "id": "34bdd9ef-eaf7-41d8-a497-5fe30469eb03",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I don\u0027t understand what you\u0027re saying. You can say things like \"the lights\" to turn on or turn off the lights in your house.",
+            "I didn\u0027t understand. Can you try again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518411289,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "216ef289-4d55-4973-979a-c4c0621838aa",
+  "name": "handleLightsHome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c60646fb-f8a8-4fc5-a44f-ef5864315a69",
+          "required": true,
+          "dataType": "@action",
+          "name": "action",
+          "value": "$action",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What do you want to do, turn on or turn off the lights?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "82aa3f1a-4fad-413c-b27b-e52a9b581e38",
+          "required": true,
+          "dataType": "@homeplace",
+          "name": "homeplace",
+          "value": "$homeplace",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What light would like $action?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Action Ready !! You $action the lights in the $homeplace"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518456534,
+  "fallbackIntent": false,
+  "events": []
+}
